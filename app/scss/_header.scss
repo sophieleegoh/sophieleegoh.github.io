@@ -6,7 +6,8 @@
 
     &__logo {
         img {
-
+            width: 282px;
+            height: 40px;
         }
     }
     &__toggle {
@@ -25,6 +26,7 @@
     &__links {
         a {
             font-size: $font-small;
+            color: $greyishBlue
         }
     }
 }
