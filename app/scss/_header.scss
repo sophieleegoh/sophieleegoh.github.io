@@ -26,7 +26,12 @@
     &__links {
         a {
             font-size: $font-small;
-            color: $greyishBlue
+            color: $greyishBlue; 
+            padding: 10px;
+
+            &:hover {
+                color: $darkBlue
+            }
         }
     }
 }
