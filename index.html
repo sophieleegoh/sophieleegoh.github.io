@@ -20,7 +20,7 @@
 <body>
 
   <header class="header">
-    <nav class="flex flex-jc-sb flex -ai-c"> 
+    <nav class="flex flex-jc-sb flex-ai-c"> 
       <a href="/" class="header__logo">
         <img src="images/logo_big.png" alt="sophieleegoh"/>
       </a>
@@ -28,6 +28,7 @@
  
       
       <div class="header__links">
+        <a href="/about.html">About</a>
         <a href="#">Contact</a>
       </div>
       
@@ -50,16 +51,24 @@
       <img style="float:left; padding: 30px;"  src="images/cropped_headshot.png"> 
 
       <h1 style="float:left;"> 
+        <br> <br> 
         Hi, I'm&nbsp
       </h1>
-      <h1 style="display: inline-block;" id="name" onmouseover="colourText()" onmouseout="resetText()">
+      <h1 style="display: inline-block;">
+        <br> <br> 
         Sophie Lee-Goh
       </h1>
 
+      <!--
       <body>
         <br>
         I'm currently studying Computer Science. 
       <body>
+      -->
+
+      <h4 id="name" onmouseover="colourText()" onmousedown="about()" onmouseout="resetText()">
+        Find out more here
+      </h4> 
     </div>
   </section>
 

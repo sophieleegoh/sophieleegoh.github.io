@@ -1,5 +1,3 @@
-console.log("hello world");  
-
 function colourText() 
 {
     var text = document.getElementById("name"); 
@@ -11,4 +9,9 @@ function resetText()
 {
     var text = document.getElementById("name"); 
     text.style.color = 'black'
+}
+
+function about()
+{
+    window.location.href = "/about.html"
 }

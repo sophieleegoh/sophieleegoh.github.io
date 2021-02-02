@@ -16,16 +16,34 @@ body {
     color: $greyishBlue
 }
 
+h4 {
+    font-weight: normal;
+}
+
 a, a:visited, a:hover {
     text-decoration: none;
+    color: black;
+    display: inline-block;
 }
 
 .flex {
-    display: flex;
+    display: flex; 
+    width: 100%;
+
+    &-ff-cw {
+        flex-flow: column wrap;
+    }
+
+    &-ta-c {
+        text-align: center;
+    }
+
+    &-fd-c {
+        flex-direction: column;
+    }
 
     &-jc-sb {
         justify-content: space-between;
-
     }
 
     &-jc-c {
@@ -35,6 +53,10 @@ a, a:visited, a:hover {
     &-ai-c {
         align-items: center;
     }
+
+    &-ac-s {
+        align-content: stretch;
+    }
 }
 
 button, .button {
@@ -43,5 +65,7 @@ button, .button {
     cursor: pointer; 
     background: linear-gradient(to right, $limeGreen, $brightCyan);
     border: 0; 
-    color: black;
+    font-family: 'Nanum Gothic', sans-serif;
+    font-size: $font-small;
+    color: white;
 }

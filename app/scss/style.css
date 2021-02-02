@@ -16,12 +16,28 @@ body {
   color: #aaabac;
 }
 
+h4 {
+  font-weight: normal;
+}
+
 a, a:visited, a:hover {
   text-decoration: none;
+  color: black;
+  display: inline-block;
 }
 
 .flex {
   display: flex;
+  width: 100%;
+}
+.flex-ff-cw {
+  flex-flow: column wrap;
+}
+.flex-ta-c {
+  text-align: center;
+}
+.flex-fd-c {
+  flex-direction: column;
 }
 .flex-jc-sb {
   justify-content: space-between;
@@ -32,6 +48,9 @@ a, a:visited, a:hover {
 .flex-ai-c {
   align-items: center;
 }
+.flex-ac-s {
+  align-content: stretch;
+}
 
 button, .button {
   padding: 1rem 1.875rem;
@@ -39,7 +58,9 @@ button, .button {
   cursor: pointer;
   background: linear-gradient(to right, #31d35c, #2bb7da);
   border: 0;
-  color: black;
+  font-family: "Nanum Gothic", sans-serif;
+  font-size: 0.875rem;
+  color: white;
 }
 
 .header nav {
@@ -73,6 +94,12 @@ button, .button {
   margin-right: auto;
   width: 40em;
   color: black;
+}
+
+.about {
+  position: absolute;
+  color: black;
+  padding: 24px;
 }
 
 /*# sourceMappingURL=style.css.map */
