@@ -1,8 +1,7 @@
 function colourText() 
 {
     var text = document.getElementById("name"); 
-    text.style.color = '#9dd8ff';
-    
+    text.style.color = '#9dd8ff';    
 }
 
 function resetText()
