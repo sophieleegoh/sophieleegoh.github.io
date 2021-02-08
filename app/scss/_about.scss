@@ -3,6 +3,12 @@
     color: black;
     padding: 5%;
 
+    // .CS {
+    //     display: flex;
+    //     height: 200vh;
+    //     align-items: center;
+    //     justify-content: center;
+    // }
 
     .Text {
         display: flex;
@@ -10,16 +16,10 @@
         // justify-content: center;
     }
 
-    .CS {
-        display: flex;
-        height: 50vh;
-        align-items: center;
-        justify-content: center;
-    }
-
-    .Taiwan {
+    .About_Body {
         opacity: 0;
         display: flex;
+        height: 100vh;
         align-items: center;
         justify-content: center;
     }
